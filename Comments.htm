@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Comments</title>
+    <!-- Again, this links the Favicon and CSS-->
+    <link href="style.css" rel="stylesheet">
+    <link href="Favicon.png" rel="shortcut icon">
+</head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCR_BkaxtSxFfCVvkdTm2zx84auEgQQ7gc",
+        authDomain: "helpafriendbase.firebaseapp.com",
+        databaseURL: "https://helpafriendbase.firebaseio.com",
+        projectId: "helpafriendbase",
+        storageBucket: "helpafriendbase.appspot.com",
+        messagingSenderId: "620969805802",
+        appId: "1:620969805802:web:d9a1298a84611e8ba19493"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<body class="body" id="body">
+    <font face="Copperplate Gothic">
+        <!-- Linking the JS file in order to call the Enter() method-->
+        <script src="script.js"></script>
+        <center>
+            <div id = "circle" style="visibility: hidden;">Loading . . . </div>
+            <!--Creates the external container-->
+            <div class="external_container">
+                <!--Creates an internal container with the text-->
+                <center>
+                    <div class="internal_container">
+                        <b>If you have any query, fell free to ask below, it will be recorded by us.</b>
+                            <font color="gold"><b>Also help support our cause by sharing these images on social media
+                                    platforms<br></b></font>
+                            <a href="https://www.facebook.com/"><img src="Facebook.png" align=center width=20
+                                    height=20></a>
+                            <a href="https://www.instagram.com/"><img src="Instagram.png" align=center width=20
+                                    height=20></a>
+                            <a href="https://twitter.com/login"><img src="Twitter.png" align=center width=20
+                                    height=20></a>
+                            <a href="https://www.linkedin.com/home"><img src="Linkedin.jpg" align=center width=20
+                                    height=20></a>
+                            <!--Creates a place for the user to enter his text--><br><br>
+                            <input type="text" id="chat">
+                            <!--Creates a button. Enter() method is called when it is clicked-->
+                            <button id="button" onclick="chat()">Paste</button>
+                            <!--The <ul> that will later contain all the posts of the user as list items.-->
+                            <ul id="list_of_chat"></ul>
+                    </div>
+                    <div class="tab" id="tab10" onmouseover="color(10)" onmouseout="decolor(10);">
+                        <a href="index.htm">
+                            Back
+                        </a>
+                        </b>
+                    </div>
+                </center>
+            </div>
+    </font>
+
+    </center>
+</body>
+
+</html>

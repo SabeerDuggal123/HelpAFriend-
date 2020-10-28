@@ -1,0 +1,170 @@
+<html>
+
+<head>
+    <title>Education Today</title>
+    <!--Linking the Favicon and the CSS file-->
+    <link rel="shortcut icon" href="Favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCR_BkaxtSxFfCVvkdTm2zx84auEgQQ7gc",
+        authDomain: "helpafriendbase.firebaseapp.com",
+        databaseURL: "https://helpafriendbase.firebaseio.com",
+        projectId: "helpafriendbase",
+        storageBucket: "helpafriendbase.appspot.com",
+        messagingSenderId: "620969805802",
+        appId: "1:620969805802:web:d9a1298a84611e8ba19493"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<body class="body" id="body">
+    <center><b>
+            <!--Creating an external container within the body that will contain all other things-->
+            <div class="external_container">
+                <div class="seperator"></div>
+                <center>
+                    <div id = "circle" style="visibility: hidden;">Loading . . . </div>
+                    <!--Acts as a seperate container for the title of the page-->
+                    <div class="internal_container">
+                        <center>
+                            <font face="Copperplate Gothic">
+                                <h1>Impact of COVID-19<br>on Education</h1><br>
+                                <h4>A comprehensive website for education during COVID times. It includes details about
+                                    Online Classes, Skill Development, and it also includes information on Cyber
+                                    Security, Cyber Bullying and complete Physical and Mental Fitness
+                                </h4>
+                                <h5>Made with ❤ for kids of <u>all</u> ages</h5>
+                        </center>
+                    </div>
+                    <br>
+                    <marquee class="tab" id="tab15" onmouseover="color(15)" onmouseout="decolor(15)" scrollamount=4
+                        style="float:right">
+                        <u>NOTE</u> -- All Hyperlinks are brown 😉&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        | <a href="https://edition.cnn.com/">World News (Courtesy:CNN) </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp; <a href="https://www.worldometers.info/coronavirus/">COVID Cases (Courtesy:
+                            Worldometers)</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://timesofindia.indiatimes.com/">National News (Courtesy: TOI)</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </marquee><br><br>
+                    <!--Linking the JS File with this HTML Document-->
+                    <script src="script.js"></script>
+                    <font size="6">
+                        <script>document.write("Welcome to Education Today, your very own website. <br> Start from the Home page 📖🏫🎒👨🏻‍⚕️")</script>
+                        </h3>
+                    </font>
+                    <center>
+                        <!--Creating the tabs that will link to other pages.-->
+                        <br>
+                        <div class="tab tabRotate" id="tab51" onmouseover="color(51)" onmouseout="decolor(51)">
+                            <a href="Corona.htm">Coronavirus Protection🛡</a>
+                        </div>
+                        <br><br>
+                        <div class="seperator"></div>
+                        <div class="tab" id="tab1" onmouseover="color(1)" onmouseout="decolor(1)">
+                            <style>
+                                div#tab1 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="Home.htm"> Home<br> 🏠 </a>
+                        </div>
+                        <div class="tab" id="tab3" onmouseover="color(3)" onmouseout="decolor(3)">
+                            <style>
+                                div#tab3 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="online_learning.html">Online Learning</a>
+                        </div>
+                        <div class="tab" id="tab5" onmouseover="color(5)" onmouseout="decolor(5)">
+                            <style>
+                                div#tab5 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="skill_development.htm">Skill Development</a>
+                        </div>
+                        <div class="tab" id="tab2" onmouseover="color(2)" onmouseout="decolor(2)">
+                            <style>
+                                div#tab2 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="Fit.htm"> Physical Fitness </a>
+                        </div>
+
+                        <div class="tab" id="tab4" onmouseover="color(4)" onmouseout="decolor(4)">
+                            <style>
+                                div#tab4 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="cyber.htm">Cyber<br>Security</a>
+                        </div>
+
+                        <div class="tab" id="tab6" onmouseover="color(6)" onmouseout="decolor(6)">
+                            <style>
+                                div#tab6 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="Mental Health.htm">Mental<br>Health</a>
+                        </div>
+                        <div class="tab" id="tab7" onmouseover="color(7)" onmouseout="decolor(7)">
+                            <style>
+                                div#tab7 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="Contact.htm">Contact us<br>📞</a>
+                        </div>
+                        <div class="tab" id="tab8" onmouseover="color(8)" onmouseout="decolor(8)">
+                            <style>
+                                div#tab8 {
+                                    float: left;
+                                }
+                            </style>
+                            <a href="Comments.htm">Comments <br> 💭</a>
+                        </div>
+
+
+
+                    </center>
+                    <br><br><br><br><br><br>
+                    <!--Adding an image-->
+                    <img src="School Supplies.jpg" width=500 height=360 align=left>
+                    <a href="creative.htm">
+                        <img src="Creative.png" width=200 height=120 class="rotateThis" align=right>
+                    </a>
+                    <h2>Click on <font color="gold">Creativity Corner👉🏻</font> for fun</h2><br>
+                    <h1>
+                        <img src="GIF.gif"><br><br>
+                        <font color="gold">Extra!!</font> Watch this <font color="gold">video</font> about Peace during
+                        the COVID Pandemic!!
+                    </h1>
+
+                    <video width=320 height=240 controls>
+                        <!--Adding a video-->
+                        <source src="Peace - Trimmed.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="tab" id="tab30" onmouseover="color(30)" onmouseout="decolor(30)">
+                        <a href="credits.htm">Credits for Images</a>
+                    </div>
+                    </font>
+                </center>
+    </center></b>
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+<!--Linking the Favicon and the CSS Stylesheet-->
+<link href="Favicon.png" rel="shortcut icon">
+<link rel="stylesheet" href="style.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCR_BkaxtSxFfCVvkdTm2zx84auEgQQ7gc",
+        authDomain: "helpafriendbase.firebaseapp.com",
+        databaseURL: "https://helpafriendbase.firebaseio.com",
+        projectId: "helpafriendbase",
+        storageBucket: "helpafriendbase.appspot.com",
+        messagingSenderId: "620969805802",
+        appId: "1:620969805802:web:d9a1298a84611e8ba19493"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<body class="body" id="body">
+
+    <b>
+        <!--Specifing a font-->
+        <font face="Copperplate Gothic">
+            <center>
+                <div id = "circle" style="visibility: hidden;">Loading . . . </div>
+                <!--Referring to the Javascript file (i.e. script.js)-->
+                <script src="script.js"></script>
+                <font size="6"></font>
+                <!--Creating an external container within the body tag that will contaain other elements-->
+                <div class="external_container">
+                    <center>
+                        <!--Creating the container with the heading-->
+`                       <script>alert("Hey! 😊 Let us know who you are in the input box below!")</script>
+                        <div class="internal_container">
+                            <h1>
+                                Home<br>
+                                Conquering Covid-19 Collected
+
+
+                            </h1>
+                        </div>
+                        <h4><i>
+                                Welcome to this comprehensive website for education during COVID times. It includes
+                                everything you would need to know including details about
+                                Online Classes, Skill Development, and it also includes information on Cyber Security,
+                                Cyber Bullying and complete Physical and Mental Fitness
+                            </i></h4>
+                        <!-- This contains the content-->
+                        <div class="internal_container">
+                            
+                            <b>
+                                <h1>Education for Success</h1>
+                            </b><br>
+                            <a href="https://www.facebook.com/"><img src="Facebook.png" align=center width=20
+                                    height=20></a>
+                            <a href="https://www.instagram.com/"><img src="Instagram.png" align=center width=20
+                                    height=20></a>
+                            <a href="https://twitter.com/login"><img src="Twitter.png" align=center width=20
+                                    height=20></a>
+                            <a href="https://www.linkedin.com/home"><img src="Linkedin.jpg" align=center width=20
+                                    height=20></a><br> Share Images on Social Media to promote this cause<br>
+                                    <br><br><p id = "para"></p><br><br><br>
+                                    <input id = "name" placeholder="What's your name?"><button onclick = "nameFunction()">Click</button><br><br>
+                            Let us work together to accomplish and achieve and make 2020 the most productive year in our
+                            educational life. Education goes beyond theoretical knowledge and what we learn from books.
+                            Experiential learning is a big (and most important) part of education.<br>
+                            Here, together we will explore the wonderful world of books, development, health and peace,
+                            all<br>
+                            within the frame-work of security and well-being.<br>
+                            Join for free and let us start this journey together. We promise not to leave you alone.<br>
+                            "Back" button at the bottom 👇🏻.
+                            <!--Adding an Image-->
+                            <img src="Elephant.png" width=100 height=100>
+                            <div class="seperator"></div>
+                            <br<br>
+                            <h2>DO YOU THING THAT AWESOME SCIENCE IS AN OXYMORON - THEN THIS VIDEO IS FOR YOU!</h2>
+                            <iframe width="848" height="480" src="https://www.youtube.com/embed/4xut8c5ycPg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- Creating the tab that allows the user to go back-->
+                            <div class="tab" id="tab9" onmouseover="color(9)" onmouseout="decolor(9)">
+                                <a href="index.htm">
+                                    Back
+                                </a>
+                            </div>
+                        </div>
+                    </center>
+            </center>
+            </div>
+        </font>
+    </b>
+</body>
+
+</html>

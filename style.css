@@ -1,0 +1,123 @@
+/* Styling the "Body"*/
+.body{
+    background-image: url('Autumn.jpg');
+    background-size: 2000px;
+    color: brown;
+}
+/* Styling the scrollbar*/
+    ::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 8px;
+    
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: gray;
+    }
+
+button{
+    background-color: gold;
+    border-radius: 15px;
+    height: 70px;
+}
+input{
+    background-color: gold;
+    border-radius: 2px;
+}
+
+/* Styling the external container*/
+.external_container{
+    border-radius: 8px;
+    text-align : center;
+    width : 80%; 
+    height : auto;
+    background-color: rgb(230, 121, 59)
+}
+/* Styling the internal container*/
+.internal_container{
+    background-color:rgb(241, 162, 14);
+    border-radius: 8px;
+    width : 80%;
+    color : black
+}
+/* Styling the seperator class*/
+.seperator{
+    width : 80%;
+    height: 20px;
+}
+/* Styling the tab class*/
+.tab{
+    background-color:rgb(255, 164, 44);
+    border-radius: 12px;
+    width: 12%; 
+    border-width: 2px;
+    border-color: blueviolet;
+}
+/* Stling the links*/
+A{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+.move{
+    width : auto;
+    height: auto;
+    background-color: goldenrod ;
+    float:right;
+}
+
+#tab15{
+    width : 80%
+}
+
+#wider1{
+    width: 80%
+}
+#wider2{
+    width: 80%
+}
+#wider3{
+    width: 80%
+}
+#wider4{
+    width: 80%
+}
+.wider{
+    width: 80%
+
+}
+.rotateThis{
+    transform: rotate(30deg);
+    border-radius: 10px;
+}
+.rotateThisMinus{
+    transform: rotate(-30deg);
+    border-radius: 10px;
+}
+.medium{
+    width : 10%
+}
+.leftfloater{
+    text-align: left;
+}
+.bloc{
+    width: 40%;
+    height: 40%
+
+}
+.tabRotate{
+    transform: rotate(-15deg);
+    float: left
+}
+
+#para{
+    background-color: gold;
+}
+#circle{
+    color: brown;
+    float: center;
+}
