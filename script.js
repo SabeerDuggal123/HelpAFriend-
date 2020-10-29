@@ -112,12 +112,12 @@ function chat() {
 
 document.onreadystatechange = () =>{
     if (document.readyState != "complete"){
-        document.getElementById('circle').style.visibility = visible
-        document.getElementById('body').style.visibility = hidden
+        document.getElementById('circle').style.visibility = "visible"
+        document.getElementById('body').style.visibility = "hidden"
     }
     else{
-        document.getElementById('circle').style.display = none
-        document.getElementById('body').style.visibility = visible
+        document.getElementById('circle').style.display = "none"
+        document.getElementById('body').style.visibility = "visible"
     }
 }
 
