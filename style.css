@@ -92,7 +92,7 @@ A{
 
 }
 .rotateThis{
-    /*transform: rotate(30deg);*/
+    transform: rotate(30deg);
     border-radius: 10px;
 }
 .rotateThisMinus{
