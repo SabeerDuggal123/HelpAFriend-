@@ -122,4 +122,11 @@ A{
     color: brown;
     float: center;
 }
-
+img{
+    width: 45%;
+    height: 50%;
+}
+#shrinkIt{
+    width:10px;
+    height:10px;
+}
