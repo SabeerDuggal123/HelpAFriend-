@@ -111,7 +111,7 @@ A{
 
 }
 .tabRotate{
-    transform: rotate(-15deg);
+    /*transform: rotate(-15deg);*/
     float: left
 }
 
