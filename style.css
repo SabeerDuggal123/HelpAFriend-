@@ -123,10 +123,13 @@ A{
     float: center;
 }
 img{
-    width: 35%;
+    width: 40%;
     height: 15%;
 }
 #shrinkIt{
     width:10px;
     height:10px;
+}
+button{
+    width: 20%;
 }
