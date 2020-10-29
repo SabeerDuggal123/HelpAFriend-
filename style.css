@@ -91,14 +91,14 @@ A{
     width: 80%
 
 }
-.rotateThis{
+/*.rotateThis{
     transform: rotate(30deg);
     border-radius: 10px;
 }
 .rotateThisMinus{
     transform: rotate(-30deg);
     border-radius: 10px;
-}
+}*/
 .medium{
     width : 10%
 }
