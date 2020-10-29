@@ -53,7 +53,7 @@ input{
 .tab{
     background-color:rgb(255, 164, 44);
     border-radius: 12px;
-    width: 20px; 
+    width: 20%; 
     border-width: 2px;
     border-color: blueviolet;
 }
